@@ -10,4 +10,5 @@ If you want to load this project from pandas, it's just a one-liner.
 import pandas as pd
 
 df = pd.read_csv("https://raw.githubusercontent.com/koaning/wordlist/main/wordlist.csv")
+df
 ```
