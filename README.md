@@ -9,6 +9,7 @@ If you want to load this project from pandas, it's just a one-liner.
 ```python
 import pandas as pd
 
-df = pd.read_csv("https://raw.githubusercontent.com/koaning/wordlist/main/wordlist.csv")
+url = "https://raw.githubusercontent.com/koaning/wordlist/main/wordlist.csv"
+df = pd.read_csv(url, converters = {'word': str, 'path': str})
 df
 ```
